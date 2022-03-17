@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import StudentLogin from "./pages/studentLogin/StudentLogin";
 import EmployeeLogin from "./pages/employeeLogin/EmployeeLogin";
 import AdminLogin from "./pages/adminLogin/AdminLogin";
-// import { BrowserRouter as Router, Routes, Route,Switch } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import StudentRegister from "./pages/studentRegister/StudentRegister";
 
