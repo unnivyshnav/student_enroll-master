@@ -1,0 +1,75 @@
+.aprove_table_container {
+  background-color: #00e08a;
+  padding-top: 20px;
+}
+
+.heading {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 90px;
+  font-weight: 600;
+
+}
+
+.table {
+  width: 95%;
+  margin: auto;
+  border-collapse: collapse;
+}
+
+.table thead {
+  background-color: #064723;
+}
+
+.table tbody {
+  background-color: #0aaf70;
+}
+
+.table thead tr th {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.35px;
+  color: white;
+  opacity: 1;
+  padding: 12px;
+  vertical-align: top;
+  border: 1px solid white;
+}
+
+.list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.listItem {
+  margin-bottom: 20px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+}
+
+table {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  margin: 50px 0px;
+  border-spacing: 15px;
+  color: rgb(0, 0, 0);
+}
+
+tr {
+  margin-bottom: 20px;
+}
+
+th {
+  width: 250px;
+  text-align: left;
+  font-size: 20px;
+}
+
+td {
+  width: 250px;
+  font-size: 20px;
+}  

@@ -1,0 +1,90 @@
+
+.main-container {
+  background: url('../../images/BACK.jpg') center center/cover no-repeat;
+  background-size: cover; 
+  height: 100vh;
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+  top: 0%;
+}
+.main-titles{
+ width: 550px;
+ position: relative;
+ left: 20%;
+ top: 20%;
+
+}
+.main-titles > h1 {
+  color: #fff;
+  font-size: 60px;
+  align-self: flex-start;
+  text-align: left;
+  
+}
+
+.main-titles > p {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.main-btns {
+  margin-top: 150px;
+  margin-left: 270px;
+}
+
+
+
+.fa-play-circle {
+  margin-left: 4px;
+}
+
+@media screen and (max-width: 960px) {
+ 
+  .hero-container > h1 {
+    font-size: 70px;
+    margin-top: -150px;
+  }
+}
+.main-btns {
+
+  padding-right: 280px;
+}
+
+@media screen and (max-width: 768px) {
+ 
+  .main-titles{
+    width: 80%;
+    margin-top: 20%;
+  }
+ .main-titles>h1 {
+    font-size: 40px;
+   text-align: left;
+    
+    margin-top: -100px;
+  }
+.main-titles>p {
+  font-size: 20px
+}
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  
+  .main-btns {
+    margin-top: 140px;
+    margin-left: 100px;
+    padding-right: 40px;
+  }
+
+}
