@@ -3,7 +3,7 @@ import Navbar from "./components/navbar/Navbar";
 import StudentLogin from "./pages/studentLogin/StudentLogin";
 import EmployeeLogin from "./pages/employeeLogin/EmployeeLogin";
 import AdminLogin from "./pages/adminLogin/AdminLogin";
-import { BrowserRouter as Router, Routes, Route,Switch } from "react-router-dom";
+// import { BrowserRouter as Router, Routes, Route,Switch } from "react-router-dom";
 import Home from "./pages/home/Home";
 import StudentRegister from "./pages/studentRegister/StudentRegister";
 
@@ -21,7 +21,7 @@ import StudentProfile from "./pages/studentProfile/StudentProfile";
 import ApproveEmployee from "./pages/approveEmployee/ApproveEmployee";
 import EmployeeProfile from "./pages/employeeProfile/EmployeeProfile";
 import Payment from "./components/payment/Payment";
-import  Footer from './components/footer/Footer';
+import Footer from "./components/footer/Footer";
 import Skeleton from "./components/skeleton/Skeleton";
 function App() {
   const { user } = useContext(Context);
@@ -52,9 +52,9 @@ function App() {
         <Route path="/courses" element={<ViewCourses />} />
         <Route path="/employee-approve" element={<ApproveEmployee />} />
         <Route path="/payment" element={<Payment />} />
-            <Route path="/sk" element={<Skeleton type="custom" />} />
+        <Route path="/sk" element={<Skeleton type="custom" />} />
       </Routes>
-        < Footer />
+      <Footer />
     </Router>
   );
 }
